@@ -5,7 +5,7 @@ import { categories } from "../utils/constant";
 
 
 const Sidebar = ({ selectedCategory, setSelectedCategory }) => (
-    <Box className="sidebar" sx={{ position: "fixed" }}>
+    <Box className="sidebar">
         <Stack
             direction="row"
             sx={{
